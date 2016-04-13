@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Praxis der Praktischen Ärztin Dr. med. Petra Paling in Würzburg: Klassische Homöopathie, Sankaran Methode, Alternative Heilmethoden.">
+  <meta name="keywords" content="Dr. med. Petra Paling, Arzt, Arztpraxis, Praktischer Arzt, Ärztin, Privatpraxis, Pratische Ärztin, Homöopathische Behandlung, Homöopathie, Homöopathischer Arzt, Würzburg">
+  <title>Homöopathie - Dr. med. Petra Paling - Anfahrt</title>
+  <link href="css/kontakt.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript"
+  src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBwdswtPosdX06vAadUOZxIAu9yl5_rQu4&sensor=false">
+  </script>
+
+  <script type="text/javascript">
+  function initialize() {
+    var myOptions = {
+      center: new google.maps.LatLng(49.7946104, 9.9153093),
+      zoom: 16,
+      zoomControl: true,
+      streetViewControl: false,
+      panControl:true,
+      scaleControl:true,
+      overviewMapControl: true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+
+    var map = new google.maps.Map(document.getElementById("karte"),
+    myOptions);
+
+    var marker = new google.maps.Marker({
+      position: map.getCenter(),
+      map: map,
+      animation: google.maps.Animation.Drop,
+      title: 'Praxis Dr.Paling'
+    });
+
+    var contentString = '<b>Praxis Dr.Paling</b>';
+
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
+
+
+  }
+  </script>
+
+  <script src="js/mobile-detect.js"></script>
+
+  <!-- Piwik -->
+  <script type="text/javascript" src="js/piwik.js"></script>
+  <noscript><p><img src="//homoeopathie-paling.de/piwik/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+
+</head>
+
+<body onload="initialize()">
+
+  <div id="header-left">
+
+    <div id="karte" style="width: 425px; height: 350px"></div>
+
+    <img src="images/flower.jpg" width="100%" height="100%" alt="leave">
+
+    <!--Linie-eins, Linie-zwei und navigation werden relativ zu header-left versetzt
+    und bleiben dadurch beim Skalieren an der gleichen Position-->
+    <div id="linie-eins">
+      <img src="images/weisse-streifen.jpg" width="3" height="600" alt="weiße linie">
+    </div>
+
+    <div id="linie-zwei">
+      <img src="images/weisse-streifen.jpg" width="3" height="600" alt="weiße linie">
+    </div>
+
+    <div id="navigation">
+      <ul>
+        <li><a href="index.htm">Startseite</a></li>
+        <li><a href="aktuelles.htm">Aktuelles</a></li>
+        <li><a href="zur-person.htm">Persönliches</a></li>
+        <li><a href="zur-praxis.htm">Zur Praxis</a></li>
+        <li><a href="team.htm">Team</a></li>
+        <li><a href="klassisch.htm">Homöopathie</a></li>
+        <li><a href="verfahren.htm">Weitere Verfahren</a></li>
+        <li><a href="links.htm">Links</a></li>
+        <li><a href="nuetzliches.htm">Nützliches</a></li>
+        <li><a href="kontakt.htm">Anfahrt</a></li>
+        <li><a href="impressum.htm">Impressum</a></li>
+        <li><a href="http://www.homoeopathie-paling.de">Mobile Seite</a></li>
+      </ul>
+    </div>
+
+    <div id="erster-textabschnitt">
+      <p>
+        Dr. Petra Paling<br />
+        Frankfurter Str. 10<br />
+        97082 Würzburg<br />
+        Tel.: 0931 – 4 52 89 59<br />
+        Fax:  0931 – 4 52 89 58<br />
+        Mail:	petra.paling<code>@</code>arcor.de<br /><br /><br /><br />
+        Die Praxis ist gut mit öffentlichen Verkehrsmitteln erreichbar.
+        Die Straßenbahnlinie 2 und 4 (Haltestelle Wörthstraße) befindet sich in unmittelbarer Nähe.
+        Parkplätze sind in der näheren Umgebung vorhanden. Bei längerem Aufenhalt empfiehlt sich das Parken auf dem Talaveraparkplatz (kostenfrei).
+      </p>
+    </div>
+
+  </div>
+
+  <div id="header-middle">
+    <img src="images/eye.jpg" width="100%" height="100%" alt="eye">
+  </div>
+
+  <div id="header-right">
+    <img src="images/leave.jpg" width="100%" height="100%" alt="flower">
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+	background-color:#D9EEAA;
+}
+
+body { overflow:scroll; min-width:960px;}
+
+#navigation ul li {
+	list-style-type:none;
+	margin:5px;
+}
+
+#navigation a, #navigation a:link, #navigation a:visited, #navigation a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:100%;
+	font-weight:bold;
+	color:#3E5F22;
+	text-decoration:none;
+}
+
+p a, p a:link, p a:visited, p a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:90%;
+	color:#3E5F22;
+}
+
+#header-left {
+	float:left;
+	position:relative;
+	width:20%;
+	height:126px;
+}
+
+#header-middle {
+	float:left;
+	width:40%;
+	height:126px;
+	left:20%;
+}
+
+#header-right {
+	float:right;
+	width:40%;
+	height:126px;
+}
+
+#navigation {
+	position:absolute;
+	left:30%;
+	top:120%;
+	width:100%;
+}
+
+#linie-eins {
+	position:absolute;
+	top:60%;
+	left:20%;
+}
+
+#linie-zwei {
+	position:absolute;
+	left:135%;
+	top:60%
+}
+
+#erster-textabschnitt {
+	position:absolute;
+	left:155%;
+	top:115%;
+	width:140%;	
+}
+
+#zweiter-textabschnitt {
+	position:absolute;
+	left:320%;
+	top:115%;
+	width:160%;
+}
+
+p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:93%;
+	color:#3E5F22;
+}
