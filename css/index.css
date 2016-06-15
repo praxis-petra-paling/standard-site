@@ -14,7 +14,7 @@ ul li {
 
 p {
 	font-family:Verdana, Geneva, sans-serif;
-	font-size:85%;
+	font-size:93%;
 	color:#3E5F22;
 }
 
@@ -82,5 +82,5 @@ p a, p a:link, p a:visited, p a:hover {
 	position:absolute;
 	left:150%;
 	top:385%;
-	width:340%;	
+	width:340%;
 }

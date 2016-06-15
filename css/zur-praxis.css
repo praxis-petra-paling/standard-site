@@ -68,14 +68,14 @@ p a, p a:link, p a:visited, p a:hover {
 #erster-textabschnitt {
 	position:absolute;
 	left:155%;
-	top:115%;
-	width:140%;	
+	top:120%;
+	width:140%;
 }
 
 #zweiter-textabschnitt {
 	position:absolute;
-	left:320%;
-	top:115%;
+	left:310%;
+	top:120%;
 	width:160%;
 }
 
