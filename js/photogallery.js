@@ -24,7 +24,7 @@
         h: 1000
       },
       {
-        src: 'images/praxis/small/Fünftes.jpg',
+        src: 'images/praxis/small/Fuenftes.jpg',
         w: 750,
         h: 1000
       },
@@ -78,7 +78,7 @@
         h: 1000
       },
       {
-        src: 'images/tdot/small/Fünftes.jpg',
+        src: 'images/tdot/small/Fuenftes.jpg',
         w: 1000,
         h: 666
       },
@@ -113,7 +113,7 @@
         h: 666
       },
       {
-        src: 'images/tdot/small/Zwölftes.jpg',
+        src: 'images/tdot/small/Zwoelftes.jpg',
         w: 666,
         h: 1000
       },
@@ -128,7 +128,7 @@
         h: 666
       },
       {
-        src: 'images/tdot/small/Fünfzehntes.jpg',
+        src: 'images/tdot/small/Fuenfzehntes.jpg',
         w: 1000,
         h: 563
       },
