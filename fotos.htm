@@ -6,9 +6,13 @@
   <meta name="keywords" content="Dr. med. Petra Paling, Arzt, Arztpraxis, Praktischer Arzt, Ärztin, Privatpraxis, Pratische Ärztin, Homöopathische Behandlung, Homöopathie, Homöopathischer Arzt, Würzburg">
   <title>Homöopathie - Dr. med. Petra Paling - Fotos</title>
   <link href="css/general.css" rel="stylesheet" type="text/css">
-  <link href="css/team.css" rel="stylesheet" type="text/css">
+  <link href="css/fotos.css" rel="stylesheet" type="text/css">
 
   <script src="js/mobile-detect.js"></script>
+
+  <!-- Photoswipe -->
+  <link rel="stylesheet" href="vendor/css/photoswipe.css" />
+  <link rel="stylesheet" href="vendor/css/default-skin.css" />
 
   <!-- Piwik -->
   <script type="text/javascript" src="js/piwik.js"></script>
@@ -48,15 +52,88 @@
       </ul>
     </div>
 
-    <p id="erster-textabschnitt">
-      Frau Hansel bleibt nach der Praxisübernahme (von Drs. Stürmer) ab 1. Januar 2016 weiterhin als bekanntes Gesicht der Praxis erhalten.<br /><br />
-      Während ihrer Arbeitszeiten Montags bis Freitags von 8.30 - 13.30 Uhr ist sie ansprechbar für Termine, Labor und Verwaltungsangelegenheiten.<br /><br />
-      Sie organisiert auch eine Rückrufliste, falls Ihr Telefonanruf nicht gleich durchgestellt werden kann.
-    </p>
+    <div id="erster-textabschnitt">
+      <div class="thumbnail">
+        <img id="praxis" src="images/praxis/small/Sechstes.jpg" />
+        <p>Praxis</p>
+      </div>
 
-    <p id="zweiter-textabschnitt">
-      <img id="hansel-img" src="images/hansel.jpg">
-    </p>
+      <div class="thumbnail">
+        <img id="tdot" src="images/tdot/small/Erstes.jpg" />
+        <p>Tag der offenen Tür</p>
+      </div>
+    </div>
+
+    <div id="zweiter-textabschnitt">
+
+    </div>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+          </button>
+
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+          </button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
   </div>
 
@@ -68,5 +145,10 @@
     <img src="images/leave.jpg" width="100%" height="100%" alt="flower">
   </div>
 
+  <!-- Photoswipe -->
+  <script src="vendor/js/photoswipe.min.js"></script>
+  <script src="vendor/js/photoswipe-ui-default.min.js"></script>
+
+  <script src="js/photogallery.js"></script>
 </body>
 </html>
