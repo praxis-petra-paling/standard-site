@@ -1,0 +1,31 @@
+#erster-textabschnitt {
+    position:absolute;
+    left:155%;
+    top:120%;
+    width:140%;
+}
+
+#zweiter-textabschnitt {
+    position:absolute;
+    left:310%;
+    top:120%;
+    width:160%;
+}
+
+.thumbnail {
+    padding: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+div.thumbnail > p {
+    color: #666666 !important;
+    text-align: center;
+    background-color: transparent !important;
+}
+
+div.thumbnail > img {
+    width: 100%;
+    cursor: pointer;
+}

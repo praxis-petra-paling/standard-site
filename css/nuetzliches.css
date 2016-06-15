@@ -1,68 +1,4 @@
 /* CSS Document */
-* {
-	margin:0px;
-	padding:0px;
-	background-color:#D9EEAA;
-}
-
-body { overflow:scroll; min-width:960px;}
-
-ul li {
-	list-style-type:none;
-	margin:5px;
-}
-
-p {
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:93%;
-	color:#3E5F22;
-}
-
-a, a:link, a:visited, a:hover {
-	font-family:Verdana, Geneva, sans-serif;
-	font-weight:bold;
-	color:#3E5F22;
-	text-decoration:none;
-}
-
-#header-left {
-	float:left;
-	position:relative;
-	width:20%;
-	height:126px;
-}
-
-#header-middle {
-	float:left;
-	width:40%;
-	height:126px;
-	left:20%;
-}
-
-#header-right {
-	float:right;
-	width:40%;
-	height:126px;
-}
-
-#navigation {
-	position:absolute;
-	left:30%;
-	top:120%;
-	width:100%;
-}
-
-#linie-eins {
-	position:absolute;
-	top:60%;
-	left:20%;
-}
-
-#linie-zwei {
-	position:absolute;
-	left:135%;
-	top:60%;
-}
 
 #erste-ueberschrift, #zweite-ueberschrift {
 	font-family:Verdana, Geneva, sans-serif;
@@ -73,41 +9,13 @@ a, a:link, a:visited, a:hover {
 #erster-abschnitt {
 	position:absolute;
 	left:155%;
-	top:120%;
+	top:110%;
 	width:140%;	
 }
 
 #zweiter-abschnitt {
 	position:absolute;
 	left:320%;
-	top:120%;
+	top:110%;
 	width:160%;
 }
-
-/*#zweite-ueberschrift {
-	position:absolute;
-	left:320%;
-	top:295%;
-	width:160%;	
-}
-
-#erster-textabschnitt {
-	position:absolute;
-	left:155%;
-	top:150%;
-	width:140%;	
-}
-
-#zweiter-textabschnitt {
-	position:absolute;
-	left:320%;
-	top:120%;
-	width:160%;
-}
-
-#dritter-textabschnitt {
-	position:absolute;
-	left:320%;
-	top:325%;
-	width:160%;	
-}*/
