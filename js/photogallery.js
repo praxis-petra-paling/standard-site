@@ -28,7 +28,7 @@
         title: 'Anmeldung'
       },
       {
-        src: 'images/praxis/small/Fünftes.jpg',
+        src: 'images/praxis/small/Fuenftes.jpg',
         w: 750,
         h: 1000,
         title: 'Sprechzimmer'
@@ -90,7 +90,7 @@
         title: 'Sabine Eckert erläutert Techniken der Lerntherapie'
       },
       {
-        src: 'images/tdot/small/Fünftes.jpg',
+        src: 'images/tdot/small/Fuenftes.jpg',
         w: 1000,
         h: 666,
         title: 'Anna Mavrommatis (Violine), Rosa Färber (Gitarre)'
@@ -132,7 +132,7 @@
         title: 'Anna Mavrommatis und Uschi Hartberger'
       },
       {
-        src: 'images/tdot/small/Zwölftes.jpg',
+        src: 'images/tdot/small/Zwoelftes.jpg',
         w: 666,
         h: 1000,
         title: 'Dr.Petra Paling'
@@ -150,7 +150,7 @@
         title: 'Dr.Paling erläutert das homöopathische Erstgespräch'
       },
       {
-        src: 'images/tdot/small/Fünfzehntes.jpg',
+        src: 'images/tdot/small/Fuenfzehntes.jpg',
         w: 1000,
         h: 563,
         title: 'Dr.Paling erläutert das homöopathische Erstgespräch'
