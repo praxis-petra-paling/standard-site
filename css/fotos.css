@@ -29,3 +29,9 @@ div.thumbnail > img {
     width: 100%;
     cursor: pointer;
 }
+
+/* Photoswipe override */
+.pswp__caption__center {
+    text-align: center !important;
+    max-width: 600px !important;
+}
