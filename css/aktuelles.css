@@ -1,0 +1,10 @@
+#news p {
+  width: 50%;
+  float: left;
+}
+#news img {
+  float: right;
+  width: 30%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
