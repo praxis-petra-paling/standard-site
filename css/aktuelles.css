@@ -1,10 +1,47 @@
-#news p {
+#news {
   width: 50%;
   float: left;
+  margin-right: 20px;
 }
-#news img {
+
+#form {
+  width: 45%;
   float: right;
-  width: 30%;
-  margin-right: 10%;
+  text-align: left;
   margin-top: 15px;
+  margin-left: 10px;
+}
+
+#form label {
+  color: #3E5F22;
+}
+
+#form .form-group {
+  margin-bottom: 20px;
+}
+
+#form input[type="text"], #form input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 93%;
+  margin-top: 10px;
+  width: 50%;
+}
+
+#form button {
+  padding: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #3E5F22
+}
+
+#form p.success, #form p.error {
+  display: none;
+}
+
+.error {
+  color: #f00;
 }
