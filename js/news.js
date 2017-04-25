@@ -10,7 +10,6 @@
   );
 
   function toggleButton(value) {
-    console.log("called");
     document.querySelector('#form button[type="submit"]').disabled = value;
   }
 
