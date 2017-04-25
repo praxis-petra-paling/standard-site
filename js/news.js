@@ -9,8 +9,14 @@
     }
   );
 
+  function toggleButton(value) {
+    console.log("called");
+    document.querySelector('#form button[type="submit"]').disabled = value;
+  }
+
   var form = document.querySelector('#form form');
   form.addEventListener('submit', function(e) {
+    toggleButton(true);
     e.preventDefault();
 
     var firstname = document.querySelector('input[name="firstname"]').value;
@@ -42,6 +48,10 @@
           document.querySelector('p.success').style = 'display: none';
           document.querySelector('p.error').style = 'display: block';
         }
+
+        setTimeout(function() {
+          toggleButton(false); 
+        }, 2000);
       }
     );
   });
