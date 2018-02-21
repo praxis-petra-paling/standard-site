@@ -21,7 +21,7 @@ function getCookie(cname) {
     var response = confirm("Möchten Sie die angepasste Webseite für das Smartphone öffnen?");
 
     if (response) {
-      window.location = "http://www.homoeopathie-paling.de";
+      window.location = "https://www.homoeopathie-paling.de";
     }
     else {
       setCookie('device', 'noredirect', 365);

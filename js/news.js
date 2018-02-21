@@ -1,6 +1,6 @@
 (function() {
   nanoajax.ajax({
-    url: 'http://www.homoeopathie-paling.de/_news.html',
+    url: 'https://www.homoeopathie-paling.de/_news.html',
     method: 'GET',
     cors: true },
     function(code, response) {
@@ -28,7 +28,7 @@
       email: email
     };
 
-    var url = location.protocol === 'file:' ? 'http://localhost:3000/api/subscribers' : 'http://newsletter.homoeopathie-paling.de/api/subscribers';
+    var url = location.protocol === 'file:' ? 'http://localhost:3000/api/subscribers' : 'https://newsletter.homoeopathie-paling.de/api/subscribers';
 
     nanoajax.ajax({
       url: url,
