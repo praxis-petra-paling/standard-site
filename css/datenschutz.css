@@ -1,6 +1,6 @@
 /* CSS Document */
 
-#erste-ueberschrift, #zweite-ueberschrift, #dritte-ueberschrift, #vierte-ueberschrift {
+.headline {
 	font-family:Verdana, Geneva, sans-serif;
 	font-weight:bold;
 	color:#3E5F22;
@@ -18,4 +18,10 @@
 	left:320%;
 	top:110%;
 	width:160%;
+}
+
+li {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:90%;
+	color:#3E5F22;
 }
