@@ -1,0 +1,21 @@
+/* CSS Document */
+
+#erste-ueberschrift, #zweite-ueberschrift, #dritte-ueberschrift, #vierte-ueberschrift {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#3E5F22;
+}
+
+#erster-abschnitt {
+	position:absolute;
+	left:155%;
+	top:110%;
+	width:140%;
+}
+
+#zweiter-abschnitt {
+	position:absolute;
+	left:320%;
+	top:110%;
+	width:160%;
+}
