@@ -15,6 +15,10 @@ p {
     color:#3E5F22;
 }
 
+li p {
+    margin: 0;
+}
+
 p a, p a:link, p a:visited, p a:hover {
     font-family:Verdana, Geneva, sans-serif;
     font-size:90%;
